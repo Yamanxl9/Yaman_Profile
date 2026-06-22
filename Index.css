@@ -16,6 +16,7 @@ body {
   background-color: #e9eb9e;
   border-radius: 0px 0px 20px 20px;
    border: solid wheat 2px;
+  border-top:0px ;
    /* margin-right: 20px; */
 }
 
@@ -23,7 +24,7 @@ body {
   grid-column: 2;
   margin: 0;
   font-family: "Iosevka Charon", monospace;
-   color: f;
+   
 }
 
 .Head nav {
@@ -83,12 +84,13 @@ font-family: "Iosevka Charon", monospace;
 }
 
 .main-section {
-  border: solid wheat 2px;
+  /* border: solid wheat 2px; */
   margin: 20px;
   grid-area: main-section;
   padding: 15px;
   background-color: #acc196;
   border-radius: 10px;
+  border-left: 3px solid rgba(57, 57, 214, 0.747);
   
 }
 .branch1 {
@@ -137,7 +139,7 @@ font-family: "Iosevka Charon", monospace;
   background-color: #799496;
   border-radius: 20px;
   margin: 0px;
-  border: solid wheat 2px;
+    border-left: 3px solid rgba(57, 57, 214, 0.747);
 
 }
 .branch12 {
@@ -207,6 +209,7 @@ font-family: "Iosevka Charon", monospace;
 
 .sss {
   text-decoration: none;
+  font-size: 12px;
 }
 
 
