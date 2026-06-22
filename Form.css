@@ -1,0 +1,42 @@
+.Blocks p {
+  padding: 10px;
+  background: cadetblue;
+  border-radius: 10px;
+  text-align: center;
+  align-content: center;
+  margin: 0px;
+  
+}
+.Blocks {
+
+  display: grid;
+  /* grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px); */
+  grid-gap: 10px 10px;
+  /* justify-content: center;
+  align-content: center; */
+  grid-template-areas: "name name name" "Year Student ." "AI AI AI";  
+  grid-template-columns: 33% 33% 33%;
+}
+
+#name {
+    grid-area: name;
+}
+#Year {
+    grid-area: Year;
+}
+#Student {
+    grid-area: Student;
+}
+#AI {
+    grid-area: AI;
+}
+
+body{
+
+   min-height: 800px;
+   display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,7 +1,10 @@
-
-
+/* 
+body{
+    align-items: center;
+    justify-content: center;
+}
 .Yaman {
-  margin-left: 46%;
+ 
   margin-top: 1%;
   width: 200px;
   border-radius: 50%;
@@ -19,6 +22,7 @@
     font-family: "Permanent Marker", cursive;
   font-weight: 400;
   font-style: normal;
+
 }
 .Nav a {
   padding: 10px;
@@ -127,4 +131,216 @@ padding-bottom: 4px;
 
 .ult {
   margin-left: 70px;
+} */
+
+
+
+body {
+  margin: 0px;
+  background-color: #8DA696;
+}
+
+.Head {
+  position: fixed;
+  width: 97%;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #e9eb9e;
+  border-radius: 0px 0px 20px 20px;
+   border: solid wheat 2px;
+   /* margin-right: 20px; */
+}
+
+.Head h1 {
+  grid-column: 2;
+  margin: 0;
+  font-family: "Iosevka Charon", monospace;
+   color: f;
+}
+
+.Head nav {
+  grid-column: 3;
+  justify-self: end;
+}
+
+.Head a {
+  padding: 5px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  flex-wrap: wrap;
+  
+}
+.Head a:hover {
+  background-color: #cbd69a;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.Yaman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Yaman p{
+font-family: "Iosevka Charon", monospace;
+}
+
+.Yaman img {
+  width: 200px;
+  border-radius: 50%;
+   border: solid wheat 2px;
+}
+
+.about h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Iosevka Charon", monospace;
+  text-decoration-line: underline;
+  margin-bottom: 0px;
+  color: antiquewhite;
+}
+
+/* .bdy {
+  display: grid;
+} */
+
+.section-1 {
+  
+  display: grid;
+  grid-template-areas: "main-section main-section main-section" "branch1 branch2 branch3";
+  grid-template-columns: 40% 30% auto;
+     font-family: "Iosevka Charon", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-section {
+  border: solid wheat 2px;
+  margin: 20px;
+  grid-area: main-section;
+  padding: 15px;
+  background-color: #acc196;
+  border-radius: 10px;
+  
+}
+.branch1 {
+  margin: 10px;
+  grid-area: branch1;
+  border: solid wheat 2px;
+  margin: 10px;
+  background-color: #93ab96;
+  padding: 10px;
+  border-radius: 15px;
+
+}
+
+.branch2 {
+  margin: 10px;
+  grid-area: branch2;
+   background-color: #93ab96;
+  border: solid wheat 2px;
+   padding: 10px;
+  border-radius: 15px;
+}
+.branch3 {
+  margin: 10px;
+  grid-area: branch3;
+   background-color: #93ab96;
+  padding: 10px;
+  border: solid wheat 2px;
+  border-radius: 15px;
+}
+
+
+.section-12 {
+   margin: 10px;
+  display: grid;
+  gap: 10px;
+  
+  grid-template-columns: minmax(33%) 66%;
+     font-family: "Iosevka Charon", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.branch11 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  padding: 20px;
+  background-color: #799496;
+  border-radius: 20px;
+  margin: 0px;
+  border: solid wheat 2px;
+
+}
+.branch12 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+    padding: 20px;
+  background-color: #799496;
+  border-radius: 20px;
+  margin: 0px;
+  border: solid wheat 2px;
+}
+.branch13 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+    padding: 20px;
+  background-color: #799496;
+  border-radius: 20px;
+  margin: 0px;
+  border: solid wheat 2px;
+}
+.Site {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E2E69D;
+
+  padding: 0 10px;
+}
+.Site p {
+  padding: 0 10px;
+}
+.Site a {
+  padding: 0 2px;
+}
+
+.section-22 {
+   margin: 10px;
+  padding: 10px;
+  background-color: #49475B;
+  border-radius: 20px;
+  border: solid wheat 2px;
+   font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.section-2{
+    margin: 0px 10px 10px 10px;
+  padding:0px 10px;
+  background-color: #49475B;
+  border-radius: 20px;
+  border: solid wheat 2px;
+   font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.section-3{
+    margin:0px 10px;
+  padding: 0px 10px;
+  background-color: #49475B;
+  border-radius: 20px;
+  border: solid wheat 2px;
+   font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.sss {
+  text-decoration: none;
 }
